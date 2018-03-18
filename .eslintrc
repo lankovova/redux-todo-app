@@ -1,0 +1,25 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jest": true
+    },
+    "extends": "airbnb",
+    "rules": {
+        "linebreak-style": ["error", "windows"],
+        "indent": ["warn", 4, { "SwitchCase": 1 }],
+        "react/jsx-indent": ["warn", 4],
+        "no-empty": ["warn"],
+        "no-trailing-spaces" : ["warn"],
+        "comma-dangle": ["warn", "always-multiline"],
+        "import/prefer-default-export": ["warn"],
+
+        "no-plusplus": 0,
+        "no-console": 0,
+        "react/jsx-filename-extension": 0,
+        "jsx-a11y/click-events-have-key-events": 0,
+        "react/jsx-indent-props": 0,
+        "react/no-unused-state": 0,
+        "react/prop-types": 0
+    }
+}
